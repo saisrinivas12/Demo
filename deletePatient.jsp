@@ -3,8 +3,8 @@
 <html>
     <body>
         <form action="/deletePatientInfo" method="POST" modelAttribute="deletePatient">
-            <label for="patientID">Patient id</label>
-            <input type="text" id="patientID" name="patientID">
+            <label for="patientId">Patient id</label>
+            <input type="text" id="patientId" name="patientId">
         </form>
         <c:out value="${result}"></c:out>
         <c:if test="${result =='deleted successfully'}">
