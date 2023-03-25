@@ -1,0 +1,14 @@
+*{
+	background-color :aliceblue;
+	}
+#form{
+	align-items:center;
+	justify-content: center;
+}
+#btn{
+	border-radius: 20%;
+	border:1px solid black;
+	text-align:center;
+	
+}
+
